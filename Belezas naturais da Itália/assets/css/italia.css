@@ -56,10 +56,10 @@ footer{
 }
 .containerfooter{
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     justify-items: center ;
     color: #ffffff;
-    padding-right: 30px;
+    padding: auto;
     font-size: 20px;
 }
 .imagemModal{
@@ -69,3 +69,6 @@ footer{
     align-items: center;
     
 }
+ .linkGit{
+    color: aliceblue;
+ }
