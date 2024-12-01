@@ -26,8 +26,10 @@
         <!--PARTE PRINCIPAL DO TEXTO-->
         <main>
             <section>
+                
+                <h1>Dicas de Turismo e Curiosidades</h1>
                 <div class="container">
-                    <h1>Dicas de Turismo e Curiosidades</h1>
+                    
                 
                     <!-- LISTAS DE DICAS DE TURISMO-->
                     <h2 class="titulo2">Dicas de Turismo</h2>
@@ -64,14 +66,34 @@
                     </ol>
                 </div>
             </section>
+            
+            <section> <!-- Area de feeedback -->
+                
+                <div class="container">
+                    <h2>Feedback</h2>
+                    <form action="enviar-feedback">
+                        <input type="text" id="inputNome" placeholder="Digite seu nome" required>
+                        <input type="email" id="inputEmail" placeholder="Digite seu Email" required>
+                        <div>
+                            <textarea name="feedback" id="feedback" placeholder="Seu feedback" required></textarea>
+                        
+                            <!-- Dizer obg dps de apertar em enviar -->
+                            <button type="submit" class="abrirModal" data-modal="modal-5">
+                                Enviar
+                            </button>
+                        </div>
+                        <dialog id="modal-5">  
+                            <img class="imagemModal" src="/Belezas naturais da Itália/assets/imagens/cachorroFofo.png" alt="Cachorro fofo pedindo 10 pontos do professor B9"> 
+                            <h2>Você vai me dar 10,0 pontos pelo site???</h2>
+                    </form>
+         </footer>
+            </section>
         </main>
 
         <footer>
             <div class="containerfooter">
                 <a class="linkGit" href="https://github.com/Kristentf" target="_blank">Kristen.github</a>
             </div>
-         </footer>
-
         <script src="/Belezas naturais da Itália/assets/JS/italia.js"></script>
     </body>
 </html>

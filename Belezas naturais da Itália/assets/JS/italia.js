@@ -18,3 +18,8 @@ fecharBotoes.forEach(button => {
             modal.close()
         }) 
 });
+
+function enviar(){
+    const modalObrigado = document.getElementById('obrigado')
+    modalObrigado.showModal()
+}

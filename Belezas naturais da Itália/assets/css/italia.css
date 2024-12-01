@@ -30,7 +30,7 @@ header{
 
 .container {
     max-width: 800px; /* Largura máxima da área central */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 40px; /* Centraliza horizontalmente */
     padding: 20px; /* Espaçamento interno */
     background-color: white; /* Cor de fundo da área central */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
@@ -72,3 +72,18 @@ footer{
  .linkGit{
     color: aliceblue;
  }
+
+textarea {
+     
+     width: 100%;
+     margin-top: 5px;
+     margin-bottom: 15px;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+     resize: vertical; /* Permite redimensionar verticalmente */
+ }
+
+
+ 
